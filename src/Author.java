@@ -23,6 +23,7 @@ public class Author {
         return firstName + ' ' + lastName;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
